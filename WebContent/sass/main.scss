@@ -1,0 +1,75 @@
+$w :100%;
+$ol :1px solid black;
+
+
+
+
+
+
+#container {
+	width: $w;
+	height: 1100px;
+	border: 10px solid black;
+	margin: auto;
+	
+		
+}
+#scroller
+{
+	width: $w - 10%;
+	height: 5%;
+	border: $ol;
+	margin: auto;
+}
+nav
+{
+	width: $w;
+	height:5%;
+	border: $ol;
+	position:100px;
+	
+}
+
+header
+{
+	width: $w;
+	height: 200px;
+	border: $ol;
+	margin: 5px auto;
+}
+img
+{
+	width:$w - 80%;
+	height:180px;
+	border: $ol red0;
+	float: right;
+	margin:2px 4px;
+}
+article
+{
+	width: 350px;
+	height: 450px;
+	border: 1px solid black;
+	margin: 10px 0px 0px 0px;
+	float:left;
+}
+
+aside
+{
+	width: 250px;
+	height: 500px;
+	border: 1px solid black;
+	margin: 10px 10px 0px 10px;
+	float: left;
+}
+
+footer
+{
+	width: 920px;
+	height: 170px;
+	border: 1px solid black;
+    clear:both;
+	margin: 0px 0px 0px 10px;
+		
+}
+
