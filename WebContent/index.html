@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="my_app">
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>FOREX</title>
 <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <div id="container">
-<div id="scroller"></div>
+<div id="scroller" ng-controller="scrollerCtrl">{{9+3}}</div>
 <header>
 <img></img>
 </header>
@@ -22,5 +22,9 @@
 </section>
 <footer></footer>
 </div>
+<script src="libs/angular.min.js"></script>
+<script src="js/scrollerCtrl.js"></script>
+<script src="js/oneFacOneSer.js"></script>
+<script src="js/objPassFac.js"></script>
 </body>
 </html>
